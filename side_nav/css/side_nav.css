@@ -4,4 +4,68 @@
 * {
 	margin: 0;
 	font-family: 'Nanum Gothic', arial, sans-serif;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+#left_side_nav .nav_body .list_body a{
+	color: black;
+}
+
+#left_side_nav .nav_body .list_body a:hover {
+	color: gray;
+	transition: 	all 0.5s;
+}
+
+.page_wrap{
+	display: flex;
+	flex-direction:row;
+}
+
+.side_nav {
+	border:1px solid red;
+	min-width: 235px;
+}
+.main_wrap {
+	flex-grow: 1;
+	background-color: yellow;
+}
+.nav_wrap {
+	margin: 0 0.8rem;
+	
+}
+
+#left_side_nav .nav_header {
+	display: flex;
+	flex-direction: row;
+	margin-top :1rem;
+	margin-bottom: 2.5rem;
+}
+#left_side_nav .userarea{
+	flex-grow: 3;
+	border:1px solid red;
+}
+
+#left_side_nav .back_btn_area{
+	flex-grow: 1;
+	border:1px solid red;
+}
+
+#left_side_nav .nav_body {
+	margin-left: 0.8rem;	
+}
+
+#left_side_nav .list_title {
+	font-size: 1.6rem;
+	font-weight: 400;
+	margin-bottom: 0.7rem;
+}
+
+#left_side_nav .list_body {
+	margin-bottom: 0.7rem;
+
+}
+/*#0059ab*/
+#left_side_nav .list_body .list_text {
+	padding: 0.2rem 0;
 }
